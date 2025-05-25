@@ -6,4 +6,6 @@ transformers
 accelerate
 torch
 safetensors
--e ./GPTQModel
+pip install git+https://github.com/your_org/GPTQModel.git
+pip install --upgrade pip
+pip install -r requirements.txt
