@@ -1,6 +1,9 @@
+torch
+torchvision
+torchtext
 streamlit
 transformers
-gptqmodel
+https://github.com/ModelCloud/GPTQModel.git
 accelerate
 torch
 safetensors
