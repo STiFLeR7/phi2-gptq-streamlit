@@ -3,7 +3,7 @@ torchvision
 torchtext
 streamlit
 transformers
-gptqmodel
+-e ./GPTQModel
 accelerate
 torch
 safetensors
