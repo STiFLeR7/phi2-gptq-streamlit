@@ -1,10 +1,10 @@
+from gptqmodel import GPTQModel, QuantizeConfig
 from transformers import AutoTokenizer
-from auto_gptq import AutoGPTQForCausalLM
 
 def load_model():
     model_path = "STiFLeR7/Phi2-GPTQ"
     tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
-    model = AutoGPTQForCausalLM.from_quantized(
+    model = GPTQModel.from_quantized(
         model_path,
         device="cpu",  # ✅ Streamlit Cloud is CPU-only
         use_safetensors=True,
