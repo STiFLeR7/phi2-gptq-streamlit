@@ -7,4 +7,4 @@ accelerate
 torch
 safetensors
 git+https://github.com/ModelCloud/GPTQModel.git
-pip install --upgrade pip
+
