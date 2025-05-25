@@ -1,0 +1,3 @@
+[submodule "gptqmodel"]
+	path = gptqmodel
+	url = https://github.com/modelcloud-ai/gptqmodel.git
